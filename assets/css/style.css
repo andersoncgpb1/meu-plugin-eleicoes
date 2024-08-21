@@ -1,0 +1,54 @@
+/* Estilos básicos para a interface do plugin */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.mpe-results-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.mpe-results-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mpe-results-header h2 {
+    color: #004085;
+    font-size: 24px;
+}
+
+.mpe-candidate {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mpe-candidate:last-child {
+    border-bottom: none;
+}
+
+.mpe-candidate-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.mpe-candidate-votes {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.mpe-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
